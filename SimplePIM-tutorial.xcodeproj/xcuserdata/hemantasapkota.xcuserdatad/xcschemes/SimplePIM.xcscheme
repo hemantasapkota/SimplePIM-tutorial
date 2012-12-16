@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2E529A18167B1C11001DE3C7"
-               BuildableName = "SimplePIM.app"
+               BuildableName = "SimplePIM-tutorial.app"
                BlueprintName = "SimplePIM-tutorial"
                ReferencedContainer = "container:SimplePIM-tutorial.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E529A18167B1C11001DE3C7"
-            BuildableName = "SimplePIM.app"
+            BuildableName = "SimplePIM-tutorial.app"
             BlueprintName = "SimplePIM-tutorial"
             ReferencedContainer = "container:SimplePIM-tutorial.xcodeproj">
          </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E529A18167B1C11001DE3C7"
-            BuildableName = "SimplePIM.app"
+            BuildableName = "SimplePIM-tutorial.app"
             BlueprintName = "SimplePIM-tutorial"
             ReferencedContainer = "container:SimplePIM-tutorial.xcodeproj">
          </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E529A18167B1C11001DE3C7"
-            BuildableName = "SimplePIM.app"
+            BuildableName = "SimplePIM-tutorial.app"
             BlueprintName = "SimplePIM-tutorial"
             ReferencedContainer = "container:SimplePIM-tutorial.xcodeproj">
          </BuildableReference>
