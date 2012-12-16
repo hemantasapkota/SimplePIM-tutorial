@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>tutorial-pim@gmail.com</string>
+	<key>Password</key>
+	<string>tutpim123</string>
+	<key>Security Question 1</key>
+	<string>Where was your favorite job?</string>
+	<key>Answer1 Pin</key>
+	<string>Osaka</string>
+	<key>Security Question 2</key>
+	<string>In which city did your mother and father meet?</string>
+	<key>Answer2 Pin</key>
+	<string>Montana</string>
+</dict>
+</plist>

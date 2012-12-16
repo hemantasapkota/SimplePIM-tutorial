@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E529A1E167B1C11001DE3C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E529A1D167B1C11001DE3C7 /* UIKit.framework */; };
+		2E529A20167B1C11001DE3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E529A1F167B1C11001DE3C7 /* Foundation.framework */; };
+		2E529A22167B1C11001DE3C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E529A21167B1C11001DE3C7 /* CoreGraphics.framework */; };
+		2E529A28167B1C11001DE3C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E529A26167B1C11001DE3C7 /* InfoPlist.strings */; };
+		2E529A2A167B1C11001DE3C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E529A29167B1C11001DE3C7 /* main.m */; };
+		2E529A2E167B1C11001DE3C7 /* CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E529A2D167B1C11001DE3C7 /* CAppDelegate.m */; };
+		2E529A31167B1C11001DE3C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E529A2F167B1C11001DE3C7 /* MainStoryboard.storyboard */; };
+		2E529A34167B1C11001DE3C7 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E529A33167B1C11001DE3C7 /* CViewController.m */; };
+		2E529A3C167B2666001DE3C7 /* 26-blue6_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E529A3A167B2666001DE3C7 /* 26-blue6_button.png */; };
+		2E529A3D167B2666001DE3C7 /* 26-green8_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E529A3B167B2666001DE3C7 /* 26-green8_button.png */; };
+		2E529A3F167B3044001DE3C7 /* netbank.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E529A3E167B3044001DE3C7 /* netbank.plist */; };
+		2E529A41167B3052001DE3C7 /* gmail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E529A40167B3052001DE3C7 /* gmail.plist */; };
+		2E529A44167B3616001DE3C7 /* CPListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E529A43167B3616001DE3C7 /* CPListTableViewController.m */; };
+		2E529A47167B3AB3001DE3C7 /* CSimplePimViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E529A46167B3AB3001DE3C7 /* CSimplePimViewControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E529A19167B1C11001DE3C7 /* SimplePIM-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimplePIM-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E529A1D167B1C11001DE3C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E529A1F167B1C11001DE3C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E529A21167B1C11001DE3C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E529A25167B1C11001DE3C7 /* SimplePIM-tutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplePIM-tutorial-Info.plist"; sourceTree = "<group>"; };
+		2E529A27167B1C11001DE3C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E529A29167B1C11001DE3C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E529A2B167B1C11001DE3C7 /* SimplePIM-tutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePIM-tutorial-Prefix.pch"; sourceTree = "<group>"; };
+		2E529A2C167B1C11001DE3C7 /* CAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAppDelegate.h; sourceTree = "<group>"; };
+		2E529A2D167B1C11001DE3C7 /* CAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAppDelegate.m; sourceTree = "<group>"; };
+		2E529A30167B1C11001DE3C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2E529A32167B1C11001DE3C7 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		2E529A33167B1C11001DE3C7 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		2E529A3A167B2666001DE3C7 /* 26-blue6_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-blue6_button.png"; sourceTree = "<group>"; };
+		2E529A3B167B2666001DE3C7 /* 26-green8_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-green8_button.png"; sourceTree = "<group>"; };
+		2E529A3E167B3044001DE3C7 /* netbank.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = netbank.plist; sourceTree = "<group>"; };
+		2E529A40167B3052001DE3C7 /* gmail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gmail.plist; sourceTree = "<group>"; };
+		2E529A42167B3616001DE3C7 /* CPListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPListTableViewController.h; sourceTree = "<group>"; };
+		2E529A43167B3616001DE3C7 /* CPListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPListTableViewController.m; sourceTree = "<group>"; };
+		2E529A45167B3AB3001DE3C7 /* CSimplePimViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSimplePimViewControllerViewController.h; sourceTree = "<group>"; };
+		2E529A46167B3AB3001DE3C7 /* CSimplePimViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSimplePimViewControllerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E529A16167B1C11001DE3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E529A1E167B1C11001DE3C7 /* UIKit.framework in Frameworks */,
+				2E529A20167B1C11001DE3C7 /* Foundation.framework in Frameworks */,
+				2E529A22167B1C11001DE3C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E529A0E167B1C11001DE3C7 = {
+			isa = PBXGroup;
+			children = (
+				2E529A23167B1C11001DE3C7 /* SimplePIM */,
+				2E529A1C167B1C11001DE3C7 /* Frameworks */,
+				2E529A1A167B1C11001DE3C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E529A1A167B1C11001DE3C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E529A19167B1C11001DE3C7 /* SimplePIM-tutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E529A1C167B1C11001DE3C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E529A1D167B1C11001DE3C7 /* UIKit.framework */,
+				2E529A1F167B1C11001DE3C7 /* Foundation.framework */,
+				2E529A21167B1C11001DE3C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E529A23167B1C11001DE3C7 /* SimplePIM */ = {
+			isa = PBXGroup;
+			children = (
+				2E529A2C167B1C11001DE3C7 /* CAppDelegate.h */,
+				2E529A2D167B1C11001DE3C7 /* CAppDelegate.m */,
+				2E529A2F167B1C11001DE3C7 /* MainStoryboard.storyboard */,
+				2E529A32167B1C11001DE3C7 /* CViewController.h */,
+				2E529A33167B1C11001DE3C7 /* CViewController.m */,
+				2E529A42167B3616001DE3C7 /* CPListTableViewController.h */,
+				2E529A43167B3616001DE3C7 /* CPListTableViewController.m */,
+				2E529A45167B3AB3001DE3C7 /* CSimplePimViewControllerViewController.h */,
+				2E529A46167B3AB3001DE3C7 /* CSimplePimViewControllerViewController.m */,
+				2E529A24167B1C11001DE3C7 /* Supporting Files */,
+			);
+			path = SimplePIM;
+			sourceTree = "<group>";
+		};
+		2E529A24167B1C11001DE3C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E529A3E167B3044001DE3C7 /* netbank.plist */,
+				2E529A40167B3052001DE3C7 /* gmail.plist */,
+				2E529A3A167B2666001DE3C7 /* 26-blue6_button.png */,
+				2E529A3B167B2666001DE3C7 /* 26-green8_button.png */,
+				2E529A25167B1C11001DE3C7 /* SimplePIM-tutorial-Info.plist */,
+				2E529A26167B1C11001DE3C7 /* InfoPlist.strings */,
+				2E529A29167B1C11001DE3C7 /* main.m */,
+				2E529A2B167B1C11001DE3C7 /* SimplePIM-tutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E529A18167B1C11001DE3C7 /* SimplePIM-tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E529A37167B1C11001DE3C7 /* Build configuration list for PBXNativeTarget "SimplePIM-tutorial" */;
+			buildPhases = (
+				2E529A15167B1C11001DE3C7 /* Sources */,
+				2E529A16167B1C11001DE3C7 /* Frameworks */,
+				2E529A17167B1C11001DE3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimplePIM-tutorial";
+			productName = SimplePIM;
+			productReference = 2E529A19167B1C11001DE3C7 /* SimplePIM-tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E529A10167B1C11001DE3C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = C;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2E529A13167B1C11001DE3C7 /* Build configuration list for PBXProject "SimplePIM-tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E529A0E167B1C11001DE3C7;
+			productRefGroup = 2E529A1A167B1C11001DE3C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E529A18167B1C11001DE3C7 /* SimplePIM-tutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E529A17167B1C11001DE3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E529A28167B1C11001DE3C7 /* InfoPlist.strings in Resources */,
+				2E529A31167B1C11001DE3C7 /* MainStoryboard.storyboard in Resources */,
+				2E529A3C167B2666001DE3C7 /* 26-blue6_button.png in Resources */,
+				2E529A3D167B2666001DE3C7 /* 26-green8_button.png in Resources */,
+				2E529A3F167B3044001DE3C7 /* netbank.plist in Resources */,
+				2E529A41167B3052001DE3C7 /* gmail.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E529A15167B1C11001DE3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E529A2A167B1C11001DE3C7 /* main.m in Sources */,
+				2E529A2E167B1C11001DE3C7 /* CAppDelegate.m in Sources */,
+				2E529A34167B1C11001DE3C7 /* CViewController.m in Sources */,
+				2E529A44167B3616001DE3C7 /* CPListTableViewController.m in Sources */,
+				2E529A47167B3AB3001DE3C7 /* CSimplePimViewControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E529A26167B1C11001DE3C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E529A27167B1C11001DE3C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E529A2F167B1C11001DE3C7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E529A30167B1C11001DE3C7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E529A35167B1C11001DE3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E529A36167B1C11001DE3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E529A38167B1C11001DE3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePIM/SimplePIM-tutorial-Prefix.pch";
+				INFOPLIST_FILE = "SimplePIM/SimplePIM-tutorial-Info.plist";
+				PRODUCT_NAME = "SimplePIM-tutorial";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E529A39167B1C11001DE3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePIM/SimplePIM-tutorial-Prefix.pch";
+				INFOPLIST_FILE = "SimplePIM/SimplePIM-tutorial-Info.plist";
+				PRODUCT_NAME = "SimplePIM-tutorial";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E529A13167B1C11001DE3C7 /* Build configuration list for PBXProject "SimplePIM-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E529A35167B1C11001DE3C7 /* Debug */,
+				2E529A36167B1C11001DE3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E529A37167B1C11001DE3C7 /* Build configuration list for PBXNativeTarget "SimplePIM-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E529A38167B1C11001DE3C7 /* Debug */,
+				2E529A39167B1C11001DE3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E529A10167B1C11001DE3C7 /* Project object */;
+}
